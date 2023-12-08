@@ -1,4 +1,4 @@
-﻿namespace CodeChallenges;
+﻿namespace CodeChallenges.StringManipulations;
 
 public static class StringReverser
 {

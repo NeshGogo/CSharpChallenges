@@ -1,10 +1,13 @@
-﻿namespace CodeChallenges;
+﻿using CodeChallenges.StringManipulations;
+
+namespace CodeChallenges;
 
 public static class Menu
 {
   private static string[] options = new string[]{
       "Checks if a string is a palindrome (reads the same forwards and backwards).",
       "reverses a string",
+      "Counts the number of occurrences of each character in a string.",
       "Exit."
     };
 
@@ -31,6 +34,9 @@ public static class Menu
       break;
       case (int)MenuOptions.ReverseString + 1:
         StringReverser.Display();
+      break;
+      case (int)MenuOptions.NumberOccurrencesInString + 1:
+        CountOCurrence.Display();
       break;
       case (int)MenuOptions.Exit + 1:
         Console.WriteLine("Goodbye!!!");
