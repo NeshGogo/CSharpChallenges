@@ -1,4 +1,4 @@
-# CSharpChallenges
+# C# Challenges
 It's a repository focused on solving programming challenges with C#.
 
 ## List of Challenges
