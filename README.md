@@ -2,10 +2,6 @@
 It's a repository focused on solving programming challenges with C#.
 
 ## List of Challenges
-
-Intermediate C# Coding Challenges
-Here are some intermediate C# coding challenges to test your skills:
-
 - ## String Manipulation:
   - Write a function that checks if a string is a palindrome (reads the same forwards and backwards).
   - Write a function that reverses a string without using built-in functions.
